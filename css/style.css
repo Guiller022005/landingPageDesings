@@ -1,0 +1,60 @@
+@import url(variables.css);
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.encabezado{
+    /* border: 2px solid red; */
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 96vw;
+    height: 24vh;
+}
+.h1{
+    position: absolute;
+    margin-top: 2%;
+    font-size: 4em;
+    position: absolute;
+    width: 674vw;
+    height: 80vh;
+}
+
+
+.p1{
+    font-size: 1.1em;
+    margin-left: 80vw;
+    position: absolute;
+    margin-top: 2%;
+    /* border: 2px solid red; */
+    width: 15vw;
+    height: 10vh;
+}
+
+.botton{
+    position: absolute;
+    margin-top: 15vh;
+    margin-left: 80vw;
+    border-radius: 8px;
+    color:#FFFFFF;
+    background-color: #252525;
+    text-align: center;
+    padding-top: 4px;
+    /* border: 2px solid red; */
+    width: 10vw;
+    height: 3vh;
+}
+
+img{
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 96vw;
+    height: 70vh;
+}
+
