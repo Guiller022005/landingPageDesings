@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+}
+
+.imagen {
+    margin-top: 2%;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    width: 1600px;
+    height: 94vh;
+}
+
+.imagen img {
+    width: 100%; /* Ajustamos el ancho de la imagen al 100% del contenedor */
+}
+
+.texto {
+    margin-top: 3%;
+    margin-left: 10vw;
+    display: flex;
+    flex-flow: column wrap;
+    z-index: 2;
+    position: relative;
+    /* border: 2px solid red; */
+    width: 30vw;
+    height: 94vh;
+    
+}
+
+.h1 {
+    position: absolute;
+    font-size: 7rem;
+}
+
+.p1 {
+    position: absolute; /* Corregimos la clase a "p1" */
+    font-size: 2rem;
+    color: gray;
+    margin-top: 25vh;
+}
+
+.a {
+    position: absolute;
+    color: white;
+    background-color: #252525;
+    border-radius: 0.4vw;
+    text-align: center;
+    padding-top: 1vh;
+    margin-top: 40vh;
+    width: 7vw;
+    height: 4vh;
+    font-size: 1.2rem;
+}
+
+.descrip{
+    margin-top: 55vh;
+}
+
+.descrip h2{
+    color: gray;
+    font-size: 2rem;
+}
+
+.descrip p{
+    color: gray;
+    font-size: 1.7rem;
+    margin-bottom: 10vh;
+}
