@@ -3,27 +3,34 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+@font-face {
+    font-family: caja;
+    src: url("../storage/font/avenir_ff/AvenirLTStd-Book.otf");
+}
+@font-face {
+    font-family: caja2;
+    src: url("/storage/font/avenir_ff/AvenirLTStd-Roman.otf");
+}
 body {
     display: flex;
 }
 
 .imagen {
     margin-top: 2%;
-    flex-direction: column;
     align-items: flex-start;
     box-sizing: border-box;
-    width: 1600px;
+    width: 716px;
     height: 94vh;
 }
 
 .imagen img {
-    width: 100%; /* Ajustamos el ancho de la imagen al 100% del contenedor */
+    width: 100%;
+    height: 932px; /* Ajustamos el ancho de la imagen al 100% del contenedor */
 }
 
 .texto {
     margin-top: 3%;
-    margin-left: 10vw;
+    margin-left: 25vw;
     display: flex;
     flex-flow: column wrap;
     z-index: 2;
@@ -36,14 +43,14 @@ body {
 
 .h1 {
     position: absolute;
-    font-size: 7rem;
+    font-size: 4rem;
 }
 
 .p1 {
     position: absolute; /* Corregimos la clase a "p1" */
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: gray;
-    margin-top: 25vh;
+    margin-top: 20vh;
 }
 
 .a {
@@ -53,23 +60,24 @@ body {
     border-radius: 0.4vw;
     text-align: center;
     padding-top: 1vh;
-    margin-top: 40vh;
+    margin-top: 35vh;
     width: 7vw;
     height: 4vh;
     font-size: 1.2rem;
 }
 
 .descrip{
-    margin-top: 55vh;
+    font-family: caja;
+    margin-top: 50vh;
 }
 
 .descrip h2{
     color: gray;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .descrip p{
     color: gray;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     margin-bottom: 10vh;
 }
