@@ -36,7 +36,7 @@ font-face {
     flex-direction: column;
     justify-content: center;
     align-items: center;  
-    margin: auto;
+    margin-top: 7vh;
     z-index: 1;
 }
 .h1{
@@ -61,7 +61,7 @@ font-face {
     font-size: 1rem;
     width: 7vw;
     height: 4vh;
-    margin-top: 2vh;
+    margin-top: 8vh;
     left: 900px;
     
 }
