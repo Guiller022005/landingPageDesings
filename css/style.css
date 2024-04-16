@@ -4,12 +4,10 @@ font-face {
     font-family: caja;
     src: url(/storage/font/avenir_ff/AvenirLTStd-Roman.otf);
 }
-
 font-face {
     font-family: caja2;
     src: url(/storage/font/avenir_ff/AvenirLTStd-Book.otf)
 }
-
 *{
     padding: 0;
     margin: 0;
