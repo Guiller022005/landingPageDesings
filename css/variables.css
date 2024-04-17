@@ -1,0 +1,13 @@
+:root{
+    --color-1: #252525;
+    --color-2: #FFFFFF;
+}
+
+@font-face {
+    font-family: caja1;
+    src: url(../storage/font/avenir_ff/AvenirLTStd-Book.otf);
+}
+@font-face {
+    font-family: caja2;
+    src: url(../storage/font/avenir_ff/AvenirLTStd-Roman.otf);
+}
