@@ -1,0 +1,95 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sect1{
+    position: relative;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: space-between;
+    
+}
+.img1{
+    position: absolute;
+    /* border: 2px solid red; */
+    margin-top: 35px;
+    margin-left: 30vw;
+    width: 408px;
+    height: 408px;
+}
+.img2{
+    position: absolute;
+    margin-right: 35px;
+    margin-left: 53vw;
+    margin-top: 120px;
+    width: 408px;
+    height: 408px;
+}
+.texto{
+    margin-top: 50px;
+    margin-left:100px;
+    width: 444px;
+    height: 473px;
+
+}
+.texto h1{
+    font-family: caja1;
+    font-size: 56px;
+}
+.texto p{
+    font-family: caja2;
+    color: var(--color-1);
+    opacity: 80%;
+    font-size: 26px;
+}
+.texto a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 157px;
+    height: 50px;
+    border-radius: 30px;
+    color: var(--color-2);
+    background: var(--color-1);
+    font-family: caja2;
+    font-size: 18px;
+}
+.sect2{
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin-left: 80px;
+    
+}
+.sect2 a{
+    text-decoration: none;
+}
+.sect2 img{
+    position: absolute;
+    width: 350px;
+    height: 379px;
+}
+.sect2 h2{
+    color: var(--color-1);
+    opacity: 25%;
+}
+.img4{
+    margin-left: 26vw;
+}
+.img5{
+    margin-left: 22vw;
+}
+.sub2{
+    margin-left: 26vw;
+}
+.sub3{
+    margin-left: 22vw;
+}
