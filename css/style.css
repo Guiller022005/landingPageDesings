@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: caja;
+    src: url(/storage/font/Lato/Lato-Bold.ttf);
+}
+
+@font-face{
+    font-family: caja2;
+    src: url(/storage/font/Lato/Lato-Regular.ttf);
+}
+
+body {
+    /* Establecer la imagen de fondo */
+    background-image: url("/storage/img/emile-seguin-R9OueKOtGGU-unsplash\ 1.svg");
+    background-repeat: no-repeat;
+    /* Ajustar el tamaño de la imagen de fondo */
+    background-size: 100% 100vh; /* Ancho automático y alto al 100% */
+    /* Centrar verticalmente la imagen de fondo */
+    background-position: center;
+    /* Opcional: asegurarse de que la imagen de fondo sea fija */
+    background-attachment: fixed;
+    /* Agregar padding para ensanchar la imagen */
+    padding-left: 10vw; /* Por ejemplo, puedes ajustar el porcentaje según lo desees */
+    padding-right: 10vw; /* Por ejemplo, puedes ajustar el porcentaje según lo desees */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 23vh;
+}
+
+.contenido h1{
+    font-family: caja;
+    font-size: 5rem;
+}
+
+.contenido p{
+    margin-top: 5vh;
+    text-align: center;
+    font-family: caja2;
+    font-size: 2rem;
+}
+
+.contenido a{
+    padding: 2vh;
+    text-align: center;
+    color: white;
+    background-color: #06040A;
+    width: 10vw;
+    height: 3vw;
+    border-radius: 3vw;
+    font-family: caja2;
+    font-size: 1.2rem;
+    margin-top: 2vh;
+}
