@@ -1,0 +1,55 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.nav{
+    width: 100%;
+}
+.section1{
+    display: flex;
+    flex-direction: row;
+    width: 833px;
+    height: 176px;
+    margin: 60px;
+    box-sizing: border-box;
+}
+.section1 h1{
+    font-family: caja1;
+    font-size: 72px;
+
+}
+.section2{
+    display: flex;
+    width: 1312px;
+    height: 559px;
+    margin: 60px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+.section2 a{
+    text-decoration: none;
+}
+.section2 h2{
+    font-family: caja2;
+    font-size: 40px;
+    color: var(--color-1);
+    opacity: 35%;
+}
+.section2 p{
+    color: var(--color-1);
+    opacity: 80%;
+
+}
+.section2 img{
+    width: 316px;
+    height: 402px;
+}
