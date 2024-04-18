@@ -1,0 +1,77 @@
+@import url(variables.css);
+
+body {
+    display: flex;
+    width: 100%;
+    background: var(--color-1);
+}
+
+.section1{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    box-sizing: border-box;   
+}
+.section1 h1{
+    font-family: caja1;
+    font-size: 88px;
+}
+.section1 p1{
+    font-family: caja2;
+    font-size: 24px;
+}
+.section1 a{
+    display: flex;
+    font-family: caja2;
+    font-size: 24px;
+    text-decoration: none;
+    color: var(--color-2);
+    top: 410px;
+    width: 182px;
+    height: 66px;
+    border-radius: 36px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-3);
+    box-sizing: border-box;
+}
+.img1{
+    display: flex;
+    position: absolute;
+    top:0;
+    right: 64px;
+}
+.img2{
+    display: flex;
+    position: absolute;
+    top: 418px;
+    left: 64px;
+}
+
+.article{
+    display: flex;
+    flex-direction: row;
+    gap:60px;
+    width: 948px;
+    height: 272px;
+    border: 1px solid red;
+    border-radius: 10vh;
+    justify-content: center;
+    align-content: space-between;
+    background: var(--color-2);
+    opacity: 30%;
+}
+.article h5{
+    font-family: caja3;
+    font-size: 24px;
+    color: var(--color-3);
+}
+.article img{
+    width: 38px;
+    height: 4px;
+}
+.article p{
+    font-family: caja2;
+    font-size: 16px;
+    color: var(--color-3);
+}
