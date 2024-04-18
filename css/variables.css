@@ -1,0 +1,19 @@
+:root{
+    --color-1:#111111;
+    --color-2: #050505;
+    --color-3: #FFFFFF;
+    --color-4:#F6F6F6;
+    --color-5:#685FD4;
+}
+@font-face {
+    font-family: caja6;
+    src: url(/storage/font/static/WorkSans-Light.ttf);
+}
+@font-face {
+    font-family: caja1;
+    src: url(/storage/font/Playfair_Display/static/PlayfairDisplay-Bold.ttf);
+}
+@font-face {
+    font-family: caja2;
+    src: url(/storage/font/Work_Sans/static/WorkSans-Regular.ttf);
+}
