@@ -1,0 +1,104 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: var(--color-1);
+}
+nav{
+    display: flex;
+    width: 100%;
+    display: grid;
+    /* background-color: rebeccapurple; */
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr ;
+    grid-template-areas: 
+    "pepe pepo"
+    ;
+    height: 100vh;
+}
+.section1{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    width: 656px;
+    height: 861px;
+    margin-left: 70px;
+    margin-top: 17vh;
+    display: grid;
+    grid-area: "pepe";
+    padding: 20%;
+}
+.img1{
+    position: absolute;
+    width: 618px;
+    height: 795px;
+    box-sizing: border-box;
+    z-index: 3;
+}
+.img2{
+    position: absolute;
+    width: 224px;
+    height: 224px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.img3{
+    position: absolute;
+    width: 224px;
+    height: 224px;
+    align-self: flex-end;
+    margin-bottom: 15vh;
+    margin-left: 23vw;
+    box-sizing: border-box;
+    z-index: 5;
+}
+.img4{
+    position: absolute;
+    width: 656px;
+    height: 656px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+.section2{
+    width: 687px;
+    height: 674px;
+    display: grid;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    grid-area: "pepo";
+    padding: 5%;
+    height: 100vh;
+
+}
+.section2 h1{
+    color: var(--color-4);
+    font-family: caja1;
+    font-size: 88px;
+}
+.section2 p{
+    color: var(--color-4);
+    font-family: caja2;
+    font-size: 24px;
+}
+.section2 a{
+    font-family: caja3;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    color: var( --color-3);
+    font-size: 32px;
+    width: 231px;
+    height: 82px;
+    background: var(--color-2);
+    border-radius: 30px;
+}
