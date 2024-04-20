@@ -1,0 +1,15 @@
+:root{
+    --color-1: #519BFD;
+}
+@font-face {
+    font-family: title;
+    src: url(../storage/font/static/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: texto;
+    src: url(../storage/font/static/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: boton;
+    src: url(../storage/font/static/Montserrat-Medium.ttf);
+}
