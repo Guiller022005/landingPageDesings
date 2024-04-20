@@ -1,0 +1,76 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: var(--color-1);
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.section1{
+    padding-top: 169px;
+    padding-left: 132px;
+}
+.texto h1{
+    font-family: title;
+    font-size: 72px;
+    color: var(--color-2);
+}
+.texto h2{
+    font-family: title;
+    font-size: 72px;
+    color: var(--color-3);
+}
+.texto h3{
+    font-family: title;
+    font-size: 72px;
+    color: var(--color-4);
+}
+.parrafo p {
+    font-family: parraf;
+    font-size:24px;
+    color: #ffff;
+    margin-top: 24px;
+}
+.boton button{
+    font-family: parraf;
+    font-size: 24px;
+    width: 182px;
+    height: 76px;
+    border-radius: 36px;
+    margin-top: 24px;
+}
+.section2{
+    width: 742px;
+    height: 792px;
+}
+
+.imgscolum{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "head head head head"
+    "main main main main"
+    "footer footer footer footer";
+    margin-top: 67px;
+    column-gap: 8px;
+    row-gap: 18px;
+}
+.colum1{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.colum2{
+    
+}
+.colum3{
+    
+}
+.colum4{
+
+}

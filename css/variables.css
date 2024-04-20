@@ -1,0 +1,14 @@
+:root{
+    --color-1: #232323;
+    --color-2: #FEC3C7;
+    --color-3: #9AD7F3;
+    --color-4: #6BDFDA;
+}
+@font-face {
+    font-family: title;
+    src: url(/storage/font/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: parraf;
+    src: url(/storage/font/Poppins/Poppins-Regular.ttf);
+}
