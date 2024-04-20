@@ -1,0 +1,91 @@
+@import url(variables.css);
+
+/* Resetting padding and margin */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Body styles */
+body {
+    background: var(--color-1);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10vw;
+}
+.ima1{
+    position: absolute;
+    right: 20vw;
+    top: 62px;
+    display: flex;
+    justify-content: flex-start;
+}
+.ima2{
+    position: absolute;
+    top: 200px;
+    right: 10vw;
+    display: flex;
+    justify-content: flex-end;
+}
+.texto1{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.texto1 h1{
+    margin-top: 10vh;
+    font-family: title;
+    font-size: 72px;
+    
+}
+.texto1 p{
+    font-family: parraf;
+    font-size: 26px;
+}
+.texto1 button{
+    font-family: boton;
+    font-size: 24px;
+    color: var(--color-1);
+    background: var(--color-2);
+    width: 182px;
+    height: 76px;
+    border: 1px solid black;
+    border-radius: 36px;
+}
+
+.section2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.texto{
+  display: flex;
+  flex-direction: row;
+  color: var(--color-1);
+  background: var(--color-2);
+  border-radius: 40px;
+  width: 80vw;
+  height: 298px;
+  justify-content: center;
+  align-items: center;
+  gap: 118px;
+  box-sizing: border-box;
+  margin-top: 10vh;
+}
+.texto h3{
+    font-family: title;
+    font-size: 32px;
+}
+.texto p{
+    font-family: parraf;
+    font-size: 24px;
+}
