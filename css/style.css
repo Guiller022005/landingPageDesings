@@ -1,0 +1,96 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    background: url('/storage/img/Image.svg')no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.section1{
+    
+    margin-top: 450px;
+}
+.section1 div{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+   
+}
+.section1 p{
+    display: flex;
+    flex-direction: row;
+    font-family: texto;
+    color: var(--color-1);
+    font-size: 22px;
+}
+.ranking div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;
+}
+.ranking h2{
+    display: flex;
+    font-family: title;
+    font-size: 32px;
+}
+.text div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.text small{
+    display: flex;
+    font-family: texto;
+    font-size: 22px;
+}
+.section2{
+    margin-top: 450px;
+}
+.section2 h1{
+    display: flex;
+    font-family: title;
+    font-size: 56px;
+}
+.section2 p{
+    display: flex;
+    font-family: texto;
+    font-size: 24px;
+    margin-top: 40px;
+}
+.button button{
+    font-family: button;
+    font-size: 20px;
+    width: 222px;
+    height: 66px;
+    background: var(--color-1);
+    color: var(--color-2);
+    border-radius: 40px;
+    text-decoration: none;
+    margin-top: 40px;
+}
+.separacion{
+    border: 1px solid black;
+    border-radius: 32px;
+    width: 425px;
+    height: 740px;
+    margin-left: 500px;
+}
+.parrafo{
+    margin-top: 128px;
+}
+.imagen{
+    position: absolute;
+    top: 360px;
+    left: 630px;
+}

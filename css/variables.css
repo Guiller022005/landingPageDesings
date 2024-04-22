@@ -1,0 +1,16 @@
+:root{
+    --color-1:#12141B;
+    --color-2:#FFFFFF;
+}
+@font-face {
+    font-family: title;
+    src: url(../storage/font/times\ new\ roman\ bold.ttf);
+}
+@font-face {
+    font-family: texto;
+    src: url(../storage/font/helvetica-light-587ebe5a59211.ttf);
+}
+@font-face {
+    font-family: button;
+    src: url(../storage/font/Lato-Regular.ttf);
+}
