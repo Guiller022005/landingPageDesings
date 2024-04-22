@@ -1,0 +1,22 @@
+:root{
+    --color-1: #EFAF64;
+    --color-2: #FFFFFF;
+    --color-3: #FE6E06;
+    --color-4: #FAEFE3;
+}
+@font-face {
+    font-family: title;
+    src: url(../storage/font/Times\ New\ Roman\ Regular.ttf);
+}
+@font-face {
+    font-family: parrafo;
+    src: url(../storage/font/HelveticaNeue\ Regular.ttf);
+}
+@font-face {
+    font-family: buttotitl;
+    src: url(../storage/font/HelveticaNeueMedium.otf);
+}
+@font-face {
+    font-family: texto;
+    src: url(../storage/font/HelveticaNeueLight.otf);
+}
