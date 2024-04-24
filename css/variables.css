@@ -1,0 +1,16 @@
+:root{
+    --color-1: #FFFFFF;
+    --color-2: #181818;
+}
+@font-face {
+    font-family: parraf;
+    src: url(../storage/font/Lato/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: title;
+    src: url(../storage/font/Lato/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: subtitles;
+    src: url(../storage/font/Lato/Lato-Black.ttf);
+}
