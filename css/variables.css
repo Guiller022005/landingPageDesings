@@ -1,0 +1,13 @@
+:root{
+    --color-1: #FFFFFF;
+    --color-2: #181818;
+    --color-3: #333333;
+}
+@font-face {
+    font-family: title;
+    src: url(../storage/font/Bitter-ExtraBold.ttf);
+}
+@font-face {
+    font-family: parraf;
+    src: url(../storage/font/SpaceMono-Regular.ttf);
+}
