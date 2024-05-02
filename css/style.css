@@ -11,7 +11,13 @@
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.section1{
+    margin-top: 40px;
+}
+.section2{
+    margin-top: 40px;
 }
 .info{
     position: absolute;
@@ -43,41 +49,53 @@ button {
   border: white; /* Borde blanco (transparente) */
 }
 
-.imgright_two{
+.imgright_two {
     display: flex;
     flex-direction: row;
-
+    
+}
+.imgright_two img{
+    height: 43.8vh;
+    
+    margin-top: -5px;
+    margin-right: 12px;
+    margin-left: -12px;
+}
+.imgleft_one img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
 }
 
 .mesage1{
     position: absolute;
-    top: 840px;
+    top: 900px;
     left: 24px;
     
 }
 .mesage1 h5{
     font-family: title;
     font-size: 56px;
-    color: var(--color-1);
+    color: var(--color-3);
     
 }
 .mesage1 small{
     font-size: 16px;
-    color: var(--color-1);
+    color: var(--color-3);
 }
 .mesage2{
     position: absolute;
-    top: 840px;
-    left: 400px;
+    top: 900px;
+    left: 480px;
 }
 .mesage2 h5{
     font-family: title;
     font-size: 56px;
-    color: var(--color-1);
+    color: var(--color-3);
 }
 .mesage2 small{
     font-size: 16px;
-    color: var(--color-1);
+    color: var(--color-3);
 }
 .mesage3{
     position: absolute;
@@ -87,9 +105,9 @@ button {
 .mesage3 h5{
     font-family: title;
     font-size: 56px;
-    color: var(--color-1);
+    color: var(--color-3);
 }
 .mesage3 small{
     font-size: 16px;
-    color: var(--color-1);
+    color: var(--color-3);
 }
