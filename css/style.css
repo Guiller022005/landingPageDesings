@@ -1,0 +1,82 @@
+@import url(variables.css);
+h1 {
+  color: var(--color-1);
+  font-family: title;
+}
+p {
+  color: var(--color-1);
+  font-family: parraf_button;
+}
+h3 {
+  font-family: title;
+}
+button {
+  text-decoration: none;
+  background: var(--color-1);
+  border: 1px solid black;
+  color: #ffffff;
+  font-family: parraf_button;
+  font-size: 22px;
+  border-radius: 40px;
+  width: 222px;
+  height: 66px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+}
+.info_principal {
+  margin-top: 135px;
+  margin-left: 71px;
+}
+.info_secundary {
+  margin-top: 113px;
+  margin-left: 71px;
+}
+.img_big {
+  border: 1px solid rebeccapurple;
+  margin-top: 202px;
+  width: 101%;
+}
+.bloque {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+.uno_siete_ocho {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 273px;
+  height: 161px;
+  background: var(--color-2);
+}
+.img_logo {
+  position: absolute;
+  top: 119px;
+  right: 280px;
+}
+.tres_seis_dos {
+  background: var(--color-3);
+  padding: 20px;
+  width: 273px;
+  height: 161px;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  margin-top: 32px;
+  padding: 20px;
+  width: 620px;
+  height: 145px;
+  background: var(--color-3);
+  gap: 38px;
+}
+.info_principal h1 {
+  font-size: 56px;
+  letter-spacing: 3px;
+}
+.info_principal p {
+  font-size: 24px;
+}
