@@ -1,0 +1,15 @@
+:root{
+    --color-1: #333333;
+    --color-2: #C6D9E1;
+    --color-3: #F4F4F4;
+}
+
+@font-face {
+font-family: parraf_button;
+src: url(../storage/font/Lato-Regular.ttf);
+}
+
+@font-face {
+font-family: title;
+src: url(../storage/font/Lato-Bold.ttf);
+}
