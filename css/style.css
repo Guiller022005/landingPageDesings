@@ -15,7 +15,7 @@ body {
 }
 .section1{
     
-    margin-top: 450px;
+    margin-top: 100px;
 }
 .section1 div{
     display: flex;
@@ -52,10 +52,10 @@ body {
 .text small{
     display: flex;
     font-family: texto;
-    font-size: 22px;
+    font-size: 18px;
 }
 .section2{
-    margin-top: 450px;
+    margin-top: 150px;
 }
 .section2 h1{
     display: flex;
@@ -83,14 +83,14 @@ body {
     border: 1px solid black;
     border-radius: 32px;
     width: 425px;
-    height: 740px;
-    margin-left: 500px;
+    height: 680px;
+    margin-left: 100px;
 }
 .parrafo{
-    margin-top: 128px;
+    margin-top: 38px;
 }
 .imagen{
     position: absolute;
-    top: 360px;
-    left: 630px;
+    top: 12px;
+    left: 230px;
 }
