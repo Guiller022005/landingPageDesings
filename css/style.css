@@ -10,6 +10,7 @@ body{
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
 }
 .section1{
     padding-top: 169px;
@@ -40,7 +41,7 @@ body{
     font-family: parraf;
     font-size: 24px;
     width: 182px;
-    height: 76px;
+    height: 56px;
     border-radius: 36px;
     margin-top: 24px;
 }
@@ -52,7 +53,7 @@ body{
 .imgscolum{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat( 1fr);
     grid-template-areas: 
     "head head head head"
     "main main main main"
